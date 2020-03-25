@@ -24,7 +24,7 @@ module.exports = {
     webDir: '' // 测试环境web目录
   },
   pre: {
-    name: '',
+    name: '预生产环境',
     script: 'npm run build', // 预生产环境打包脚本
     host: '', // 预生产服务器地址
     port: 22, // ssh port，一般默认22
